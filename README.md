@@ -98,7 +98,7 @@ zippopotam-api-automation/
 
 ---
 
-## Review
+## Notes for review
 
 - **Country name.** The API returns `"Great Britain"` for GB, **not**
   `"United Kingdom"`. The tests assert the value the API actually returns.
