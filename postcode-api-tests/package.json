@@ -1,0 +1,20 @@
+{
+  "name": "postcode-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zippopotam.us API BDD automation using Playwright, playwright-bdd and TypeScript",
+  "scripts": {
+    "test": "bddgen && playwright test",
+    "test:ui": "bddgen && playwright test --ui",
+    "test:debug": "bddgen && playwright test --debug",
+    "test:report": "playwright show-report",
+    "bddgen": "bddgen",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^22.10.0",
+    "playwright-bdd": "^9.2.1",
+    "typescript": "^6.0.3"
+  }
+}
